@@ -1,7 +1,7 @@
 {
   "name": "styled-addons",
   "version": "1.0.0",
-  "description": "💅 styled components theming and more 🔥",
+  "description": "styled-components theming and more 💅 🔥 ",
   "main": "./dist/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
