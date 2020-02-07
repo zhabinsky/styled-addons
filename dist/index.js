@@ -7,7 +7,7 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.createAddon = exports.createGlobalStyle = exports["default"] = void 0;
 
-var _wrapWithReplacer = _interopRequireDefault(require("./src/wrapWithReplacer"));
+var _wrapWithReplacer = _interopRequireDefault(require("./wrapWithReplacer"));
 
 var _styledComponents = _interopRequireWildcard(require("styled-components"));
 
