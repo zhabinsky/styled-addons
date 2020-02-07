@@ -1,0 +1,34 @@
+{
+  "name": "styled-addons",
+  "version": "1.0.0",
+  "description": "💅 styled components theming and more 🔥",
+  "main": "./dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "./node_modules/.bin/babel src --out-dir dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zhabinsky/styled-addons.git"
+  },
+  "keywords": [
+    "styled-components",
+    "theme",
+    "props"
+  ],
+  "author": "Vladislav Zhabinsky <vladislavzhabinsky@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zhabinsky/styled-addons/issues"
+  },
+  "homepage": "https://github.com/zhabinsky/styled-addons#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.1.5",
+    "@babel/core": "^7.1.6",
+    "@babel/preset-env": "^7.1.6",
+    "babel-preset-minify": "^0.5.1"
+  },
+  "peerDependencies": {
+    "styled-components": "^5.0.0"
+  }
+}
