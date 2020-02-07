@@ -1,11 +1,11 @@
 {
   "name": "styled-addons",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "styled-components theming and more 💅 🔥 ",
   "main": "./dist/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "./node_modules/.bin/babel src --out-dir dist"
+    "build": "./node_modules/.bin/babel src --out-dir dist",
+    "prepublish": "npm run build"
   },
   "repository": {
     "type": "git",

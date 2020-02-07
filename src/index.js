@@ -1,4 +1,4 @@
-import withReplacer from './src/wrapWithReplacer';
+import withReplacer from './wrapWithReplacer';
 import styled, {createGlobalStyle as createGlobal} from 'styled-components';
 
 const createAddon = ({
